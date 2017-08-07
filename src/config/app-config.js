@@ -18,7 +18,7 @@ export default {
     // auth: "https://dl-auth-api-dev.mybluemix.net/v1/",
     // auth: "https://academy-webapi-dev.herokuapp.com/api/",
 
-    // core: "https://academy-webapi-dev.herokuapp.com/api/"
+    // core: "https://academy-webapi-dev.herokuapp.com/api/",
     auth: "http://localhost:3000/api/",
     core: "http://localhost:3000/api/"
   }

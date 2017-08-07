@@ -6,13 +6,10 @@
     <title><%- htmlWebpackPlugin.options.metadata.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <base href="<%- htmlWebpackPlugin.options.metadata.baseUrl %>">
-        <!-- imported CSS are concatenated and added automatically -->
-          
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css" />
+    <!-- imported CSS are concatenated and added automatically -->
+
   </head>
-  <body aurelia-app="main">
+  <body aurelia-app="main" >
     <div class="splash">
       <div class="message"><%- htmlWebpackPlugin.options.metadata.title %></div>
       <i class="fa fa-spinner fa-spin"></i>
